@@ -1,0 +1,97 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #eef2f7; /* Color gris claro de fondo como en el video */
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.contenedor {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+    width: 500px;
+    text-align: center;
+}
+
+h1 { color: #2c3e50; margin-bottom: 20px; }
+
+.configuracion {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #dee2e6;
+    margin-bottom: 20px;
+}
+
+.formulario {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+input {
+    flex: 1;
+    padding: 12px;
+    border: 2px solid #edeff2;
+    border-radius: 8px;
+    outline: none;
+}
+
+button {
+    background-color: #3498db; /* Azul profesional */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #f8f9fa;
+    color: #7f8c8d;
+    padding: 12px;
+    border-bottom: 2px solid #eee;
+}
+
+td {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+h1 { color: #1a73e8; text-align: center; }
+
+/* Estilo para la lista ordenada (Requisito de la evidencia) */
+ol {
+    background: white;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+ol li a {
+    text-decoration: none;
+    color: #1a73e8;
+    font-weight: bold;
+}
+
+section {
+    background: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+img {
+    display: block;
+    margin: 10px 0;
+    border: 3px solid #ddd;
+    border-radius: 5px;
+    max-width: 100%; /* Para que no se salga de la pantalla */
+}
